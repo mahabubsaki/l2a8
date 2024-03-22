@@ -1,5 +1,7 @@
 'use client';
 
+import Image from 'next/image';
+import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
 
 const Navbar = () => {
@@ -23,9 +25,15 @@ const Navbar = () => {
             <div className="container px-6 py-4 mx-auto">
                 <div className="lg:flex lg:items-center lg:justify-between">
                     <div className="flex items-center justify-between">
-                        <a href="#">
-                            <img className="w-auto h-6 sm:h-7" src="/logo.png" alt="" />
-                        </a>
+                        <Link href={'/'} prefetch={false}>
+
+                            <div className="aspect-[70/15] relative h-6 sm:h-12">
+                                <Image priority sizes='(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw' src={'/assets/logo.png'} fill alt='website-log' />
+                            </div>
+
+                        </Link>
+
+
 
                         {/* Mobile menu button */}
                         <div className="flex lg:hidden">
@@ -44,12 +52,14 @@ const Navbar = () => {
                     </div>
 
                     {/* Mobile Menu open: "block", Menu closed: "hidden" */}
-                    <div className={`absolute inset-x-0 z-20 w-full px-6 py-4 transition-all duration-300 ease-in-out bg-white  lg:mt-0 lg:p-0 lg:top-0 lg:relative lg:bg-transparent lg:w-auto lg:opacity-100 lg:translate-x-0 lg:flex lg:items-center ${isOpen ? 'translate-x-0 opacity-100 ' : 'opacity-0 -translate-x-full'}`}>
-                        <div className="flex flex-col -mx-6 lg:flex-row lg:items-center lg:mx-8">
-                            <a href="#" className="px-3 py-2 mx-3 mt-2 text-gray-700 transition-colors duration-300 transform rounded-md lg:mt-0  hover:bg-gray-100 ">Join Slack</a>
-                            <a href="#" className="px-3 py-2 mx-3 mt-2 text-gray-700 transition-colors duration-300 transform rounded-md lg:mt-0  hover:bg-gray-100 ">Browse Topics</a>
-                            <a href="#" className="px-3 py-2 mx-3 mt-2 text-gray-700 transition-colors duration-300 transform rounded-md lg:mt-0  hover:bg-gray-100 ">Random Item</a>
-                            <a href="#" className="px-3 py-2 mx-3 mt-2 text-gray-700 transition-colors duration-300 transform rounded-md lg:mt-0  hover:bg-gray-100 ">Experts</a>
+                    <div className={`absolute  inset-x-0 z-20 w-full px-6 py-4 transition-all duration-300 ease-in-out text-sm bg-white  lg:mt-0 lg:p-0 lg:top-0 lg:relative lg:bg-transparent lg:w-auto lg:opacity-100 lg:translate-x-0 lg:flex lg:items-center ${isOpen ? 'translate-x-0 opacity-100 ' : 'opacity-0 -translate-x-full'}`}>
+                        <div className="flex flex-col -mx-6 lg:flex-row lg:items-center lg:mx-6">
+                            <Link href="/" className="px-3 py-2 mx-2 mt-2 text-gray-700 transition-colors duration-300 transform rounded-md lg:mt-0  hover:bg-gray-100 ">Home</Link>
+                            <Link href="/kitchen-cleaners" className="px-3 py-2 mx-2 mt-2 text-gray-700 transition-colors duration-300 transform rounded-md lg:mt-0  hover:bg-gray-100 ">Products</Link>
+                            <Link href="/flash-sale" className="px-3 py-2 mx-2 mt-2 text-gray-700 transition-colors duration-300 transform rounded-md lg:mt-0  hover:bg-gray-100 ">Flash Sale</Link>
+                            <Link href="/about-us" className="px-3 py-2 mx-2 mt-2 text-gray-700 transition-colors duration-300 transform rounded-md lg:mt-0  hover:bg-gray-100 ">About Us</Link>
+                            <Link href="/contact-us" className="px-3 py-2 mx-2 mt-2 text-gray-700 transition-colors duration-300 transform rounded-md lg:mt-0  hover:bg-gray-100 ">Contact Us</Link>
+                            <Link href="/helpline" className="px-3 py-2 mx-2 mt-2 text-gray-700 transition-colors duration-300 transform rounded-md lg:mt-0  hover:bg-gray-100 ">Helpline</Link>
                         </div>
 
                         <div className="flex items-center mt-4 lg:mt-0">
@@ -60,8 +70,8 @@ const Navbar = () => {
                             </button>
 
                             <button type="button" className="flex items-center focus:outline-none" aria-label="toggle profile dropdown">
-                                <div className="w-8 h-8 overflow-hidden border-2 border-gray-400 rounded-full">
-                                    <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80" className="object-cover w-full h-full" alt="avatar" />
+                                <div className="w-8 h-8 relative overflow-hidden border-2 border-gray-400 rounded-full">
+                                    <Image src={'/assets/profile.jpg'} sizes='(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw' fill alt='profile-picture' />
                                 </div>
 
                                 <h3 className="mx-2 text-gray-700  lg:hidden">Khatab wedaa</h3>
