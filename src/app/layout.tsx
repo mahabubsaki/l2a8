@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/custom/ui/Navbar/Navbar";
+import classNames from "classnames";
+import HeroBanner from "@/custom/ui/HeroBanner/HeroBanner";
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -19,9 +21,10 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
 
-      <body className={inter.className}>
-        <Navbar />
-        <main>
+      <body className={classNames(inter.className)}>
+
+        <HeroBanner />
+        <main className='max-w-screen-xl mx-auto '>
           {children}
         </main>
       </body>
