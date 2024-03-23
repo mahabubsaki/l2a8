@@ -74,7 +74,7 @@ const Navbar = () => {
                                     <Image src={'/assets/profile.jpg'} sizes='(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw' fill alt='profile-picture' />
                                 </div>
 
-                                <h3 className="mx-2 text-gray-700  lg:hidden">Khatab wedaa</h3>
+                                <h3 className="mx-2 text-gray-700  lg:hidden">Mahabub Saki</h3>
                             </button>
                         </div>
                     </div>

@@ -25,7 +25,7 @@ const ProductSlider = () => {
                         <div className="p-1">
                             <Card>
                                 <CardContent className="flex relative aspect-video items-center justify-center p-6 rounded-2xl overflow-hidden">
-                                    <Image src={images[index]} fill alt='product-image-1' />
+                                    <Image sizes='(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw' src={images[index]} fill alt='product-image-1' />
                                     <div className='absolute z-10 aspect-video h-8 top-5 left-5 rounded-3xl flex justify-center text-white items-center py-2 bg-black'>
                                         -15%
                                     </div>
@@ -38,7 +38,7 @@ const ProductSlider = () => {
                                         <span className='  line-through opacity-50'>$220.00</span>
                                         <span>$200.00</span>
                                     </div>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" className="lucide lucide-clock-10"><circle cx="12" cy="12" r="10" /><polyline points="12 6 12 12 8 10" /></svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-clock-10"><circle cx="12" cy="12" r="10" /><polyline points="12 6 12 12 8 10" /></svg>
                                 </div>
                             </div>
                         </div>
