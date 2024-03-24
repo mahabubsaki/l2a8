@@ -1,0 +1,403 @@
+{
+    "products": [
+        {
+            "name": "All-Purpose Kitchen Cleaner",
+            "category": "General Cleaner",
+            "brand": "CleanMaster",
+            "price": 9.99,
+            "discounted_price": 7.99,
+            "size": "750ml",
+            "scent": "Lemon",
+            "flash_sale": true,
+            "ingredients": [
+                "Water",
+                "Surfactant",
+                "Citric Acid",
+                "Fragrance"
+            ],
+            "rating": 2.5,
+            "reviews": 120,
+            "image_url": "https://picsum.photos/1000/500?random=1&grayscale=3"
+        },
+        {
+            "name": "Grease-Cutting Dish Soap",
+            "category": "Wipes",
+            "brand": "ShineBright",
+            "price": 5.49,
+            "discounted_price": 4.29,
+            "size": "500ml",
+            "flash_sale": false,
+            "scent": "Orange",
+            "ingredients": [
+                "Water",
+                "Sodium Lauryl Sulfate",
+                "Citric Acid",
+                "Fragrance"
+            ],
+            "rating": 3.2,
+            "reviews": 95,
+            "image_url": "https://picsum.photos/1000/500?random=2&grayscale=3"
+        },
+        {
+            "name": "Stainless Steel Cleaner",
+            "category": "Surface Cleaner",
+            "brand": "SparkleShine",
+            "price": 7.99,
+            "flash_sale": true,
+            "discounted_price": 6.49,
+            "size": "400ml",
+            "scent": "Unscented",
+            "ingredients": [
+                "Water",
+                "Isopropyl Alcohol",
+                "Surfactant",
+                "Fragrance"
+            ],
+            "rating": 1.4,
+            "reviews": 80,
+            "image_url": "https://picsum.photos/1000/500?random=3&grayscale=3"
+        },
+        {
+            "name": "Oven & Grill Cleaner",
+            "category": "Specialized Cleaner",
+            "brand": "ToughClean",
+            "flash_sale": true,
+            "price": 12.99,
+            "discounted_price": 10.99,
+            "size": "1L",
+            "scent": "Citrus",
+            "ingredients": [
+                "Water",
+                "Sodium Hydroxide",
+                "Surfactant",
+                "Fragrance"
+            ],
+            "rating": 2.5,
+            "reviews": 110,
+            "image_url": "https://picsum.photos/1000/500?random=4&grayscale=3"
+        },
+        {
+            "name": "Antibacterial Kitchen Wipes",
+            "category": "Wipes",
+            "brand": "CleanSwipe",
+            "price": 3.99,
+            "flash_sale": false,
+            "discounted_price": 2.99,
+            "count": 50,
+            "scent": "Fresh",
+            "ingredients": [
+                "Water",
+                "Quaternary Ammonium Compounds",
+                "Citric Acid",
+                "Fragrance"
+            ],
+            "rating": 4.4,
+            "reviews": 150,
+            "image_url": "https://picsum.photos/1000/500?random=5&grayscale=3"
+        },
+        {
+            "name": "Dishwasher Cleaner Tablets",
+            "category": "Dishwasher Care",
+            "brand": "DishGuard",
+            "price": 8.49,
+            "flash_sale": true,
+            "discounted_price": 6.99,
+            "count": 24,
+            "scent": "Lavender",
+            "ingredients": [
+                "Sodium Carbonate",
+                "Sodium Bicarbonate",
+                "Sodium Percarbonate",
+                "Fragrance"
+            ],
+            "rating": 0.4,
+            "reviews": 85,
+            "image_url": "https://picsum.photos/1000/500?random=6&grayscale=3"
+        },
+        {
+            "name": "Granite Countertop Cleaner",
+            "category": "Surface Cleaner",
+            "brand": "GraniteGleam",
+            "price": 10.99,
+            "flash_sale": true,
+            "discounted_price": 8.99,
+            "size": "500ml",
+            "scent": "Bergamot",
+            "ingredients": [
+                "Water",
+                "Alcohol",
+                "Surfactant",
+                "Fragrance"
+            ],
+            "rating": 4.3,
+            "reviews": 70,
+            "image_url": "https://picsum.photos/1000/500.webp?random=7&grayscale=3"
+        },
+        {
+            "name": "Natural Wood Surface Cleaner",
+            "category": "Surface Cleaner",
+            "brand": "EcoShine",
+            "price": 6.99,
+            "discounted_price": 5.49,
+            "size": "400ml",
+            "scent": "Eucalyptus",
+            "flash_sale": false,
+            "ingredients": [
+                "Water",
+                "Vinegar",
+                "Essential Oils",
+                "Fragrance"
+            ],
+            "rating": 4.7,
+            "reviews": 105,
+            "image_url": "https://picsum.photos/1000/500.webp?random=8&grayscale=3"
+        },
+        {
+            "name": "Lime Scale Remover",
+            "category": "Wipes",
+            "brand": "LimeAway",
+            "price": 5.99,
+            "flash_sale": true,
+            "discounted_price": 4.49,
+            "size": "750ml",
+            "scent": "Citrus",
+            "ingredients": [
+                "Water",
+                "Hydrochloric Acid",
+                "Surfactant",
+                "Fragrance"
+            ],
+            "rating": 4.5,
+            "reviews": 90,
+            "image_url": "https://picsum.photos/1000/500.webp?random=9&grayscale=3"
+        },
+        {
+            "name": "Kitchen Drain Cleaner",
+            "category": "Specialized Cleaner",
+            "brand": "DrainMagic",
+            "price": 7.49,
+            "flash_sale": true,
+            "discounted_price": 5.99,
+            "size": "500ml",
+            "scent": "Mint",
+            "ingredients": [
+                "Water",
+                "Sodium Hydroxide",
+                "Surfactant",
+                "Fragrance"
+            ],
+            "rating": 4.6,
+            "reviews": 100,
+            "image_url": "https://picsum.photos/1000/500.webp?random=10&grayscale=3"
+        },
+        {
+            "name": "Multi-Surface Antibacterial Cleaner",
+            "category": "General Cleaner",
+            "brand": "CleanShield",
+            "price": 6.79,
+            "discounted_price": 5.29,
+            "size": "750ml",
+            "scent": "Fresh",
+            "flash_sale": false,
+            "ingredients": [
+                "Water",
+                "Ammonium Hydroxide",
+                "Surfactant",
+                "Fragrance"
+            ],
+            "rating": 4.4,
+            "reviews": 85,
+            "image_url": "https://picsum.photos/1000/500.webp?random=11&grayscale=3"
+        },
+        {
+            "name": "All-Natural Fruit and Veggie Wash",
+            "category": "Specialized Cleaner",
+            "brand": "NatureClean",
+            "price": 8.99,
+            "flash_sale": true,
+            "discounted_price": 6.99,
+            "size": "500ml",
+            "scent": "None",
+            "ingredients": [
+                "Water",
+                "Citric Acid",
+                "Vegetable-Based Cleanser",
+                "Essential Oils"
+            ],
+            "rating": 4.6,
+            "reviews": 75,
+            "image_url": "https://picsum.photos/1000/500.webp?random=12&grayscale=3"
+        },
+        {
+            "name": "Foaming Garbage Disposal Cleaner",
+            "category": "Specialized Cleaner",
+            "brand": "FreshDrain",
+            "price": 4.49,
+            "flash_sale": false,
+            "discounted_price": 3.29,
+            "size": "300ml",
+            "scent": "Lemon",
+            "ingredients": [
+                "Water",
+                "Sodium Hydroxide",
+                "Surfactant",
+                "Fragrance"
+            ],
+            "rating": 4.3,
+            "reviews": 65,
+            "image_url": "https://picsum.photos/1000/500.webp?random=13&grayscale=3"
+        },
+        {
+            "name": "Citrus Degreaser",
+            "category": "Wipes",
+            "brand": "CitruShine",
+            "price": 6.99,
+            "discounted_price": 5.49,
+            "size": "500ml",
+            "scent": "Citrus",
+            "flash_sale": true,
+            "ingredients": [
+                "Water",
+                "D-Limonene",
+                "Surfactant",
+                "Fragrance"
+            ],
+            "rating": 4.4,
+            "reviews": 85,
+            "image_url": "https://picsum.photos/1000/500.webp?random=14&grayscale=3"
+        },
+        {
+            "name": "All-Purpose Antibacterial Cleaner",
+            "category": "General Cleaner",
+            "brand": "GuardClean",
+            "price": 8.49,
+            "discounted_price": 6.99,
+            "size": "750ml",
+            "scent": "Fresh",
+            "flash_sale": true,
+            "ingredients": [
+                "Water",
+                "Benzalkonium Chloride",
+                "Surfactant",
+                "Fragrance"
+            ],
+            "rating": 3.5,
+            "reviews": 95,
+            "image_url": "https://picsum.photos/1000/500.webp?random=15&grayscale=3"
+        },
+        {
+            "name": "Natural Citrus All-Purpose Cleaner",
+            "category": "Wipes",
+            "brand": "EcoClean",
+            "price": 7.99,
+            "discounted_price": 6.29,
+            "size": "500ml",
+            "scent": "Citrus",
+            "flash_sale": false,
+            "ingredients": [
+                "Water",
+                "Citrus Extracts",
+                "Surfactant",
+                "Fragrance"
+            ],
+            "rating": 4.7,
+            "reviews": 105,
+            "image_url": "https://picsum.photos/1000/500.webp?random=16&grayscale=3"
+        },
+        {
+            "name": "Foaming Kitchen Cleaner",
+            "category": "General Cleaner",
+            "brand": "FoamFresh",
+            "price": 5.99,
+            "discounted_price": 4.49,
+            "size": "400ml",
+            "scent": "Fresh",
+            "flash_sale": true,
+            "ingredients": [
+                "Water",
+                "Surfactant",
+                "Citric Acid",
+                "Fragrance"
+            ],
+            "rating": 4.3,
+            "reviews": 80,
+            "image_url": "https://picsum.photos/1000/500.webp?random=17&grayscale=3"
+        },
+        {
+            "name": "Multi-Surface Kitchen Cleaner",
+            "category": "General Cleaner",
+            "brand": "MultiShine",
+            "price": 9.99,
+            "discounted_price": 7.49,
+            "size": "750ml",
+            "scent": "Fresh",
+            "flash_sale": false,
+            "ingredients": [
+                "Water",
+                "Surfactant",
+                "Citric Acid",
+                "Fragrance"
+            ],
+            "rating": 4.5,
+            "reviews": 90,
+            "image_url": "https://picsum.photos/1000/500.webp?random=18&grayscale=3"
+        },
+        {
+            "name": "Heavy-Duty Oven Cleaner",
+            "category": "Specialized Cleaner",
+            "brand": "OvenMaster",
+            "price": 11.99,
+            "discounted_price": 9.99,
+            "size": "500ml",
+            "scent": "Lemon",
+            "flash_sale": true,
+            "ingredients": [
+                "Water",
+                "Sodium Hydroxide",
+                "Surfactant",
+                "Fragrance"
+            ],
+            "rating": 4.8,
+            "reviews": 120,
+            "image_url": "https://picsum.photos/1000/500.webp?random=16&grayscale=3"
+        },
+        {
+            "name": "Glass Stovetop Cleaner",
+            "category": "Surface Cleaner",
+            "brand": "ShineGuard",
+            "price": 7.49,
+            "discounted_price": 5.99,
+            "size": "400ml",
+            "scent": "Fresh",
+            "flash_sale": false,
+            "ingredients": [
+                "Water",
+                "Isopropyl Alcohol",
+                "Surfactant",
+                "Fragrance"
+            ],
+            "rating": 4.4,
+            "reviews": 95,
+            "image_url": "https://picsum.photos/1000/500.webp?random=17&grayscale=3"
+        },
+        {
+            "name": "Organic Fruit and Vegetable Wash",
+            "category": "Specialized Cleaner",
+            "brand": "NatureWash",
+            "price": 6.99,
+            "discounted_price": 5.49,
+            "size": "500ml",
+            "scent": "Unscented",
+            "flash_sale": true,
+            "ingredients": [
+                "Water",
+                "Organic Surfactant",
+                "Citric Acid",
+                "Essential Oils"
+            ],
+            "rating": 4.6,
+            "reviews": 100,
+            "image_url": "https://picsum.photos/1000/500?random=18&grayscale=3"
+        }
+    ]
+}

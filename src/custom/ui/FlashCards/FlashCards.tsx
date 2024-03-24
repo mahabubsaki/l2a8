@@ -16,9 +16,9 @@ const FlashCards = async () => {
     return (
         <section className='pt-[100px]'>
             <div className='flex justify-between items-center mb-9'>
-                <p>Flash Sale</p>
+                <p className='text-xl'>Flash Sale</p>
                 <Link href={'/flash-sale'}>
-                    <Button className='flex items-center gap-2 py-4 rounded-2xl px-6'><span>View All</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-chevron-right"><path d="m9 18 6-6-6-6" /></svg></Button></Link>
+                    <Button className='flex items-center gap-2  py-4 rounded-2xl px-6'><span>View All</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-chevron-right"><path d="m9 18 6-6-6-6" /></svg></Button></Link>
             </div>
             <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4'>
                 {products.map((item, index) => (
