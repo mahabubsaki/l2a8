@@ -1,7 +1,9 @@
 {
     "products": [
         {
+            "id": 1,
             "name": "All-Purpose Kitchen Cleaner",
+            "description": "A powerful cleaner that cuts through grease and grime, leaving your kitchen sparkling clean.",
             "category": "General Cleaner",
             "brand": "CleanMaster",
             "price": 9.99,
@@ -20,8 +22,10 @@
             "image_url": "https://picsum.photos/1000/500?random=1&grayscale=3"
         },
         {
+            "id": 2,
             "name": "Grease-Cutting Dish Soap",
             "category": "Wipes",
+            "description": "A powerful dish soap that cuts through grease and grime, leaving your dishes sparkling clean.",
             "brand": "ShineBright",
             "price": 5.49,
             "discounted_price": 4.29,
@@ -39,6 +43,8 @@
             "image_url": "https://picsum.photos/1000/500?random=2&grayscale=3"
         },
         {
+            "id": 3,
+            "description": "A powerful stainless steel cleaner that cuts through grease and grime, leaving your stainless steel appliances sparkling clean.",
             "name": "Stainless Steel Cleaner",
             "category": "Surface Cleaner",
             "brand": "SparkleShine",
@@ -58,6 +64,8 @@
             "image_url": "https://picsum.photos/1000/500?random=3&grayscale=3"
         },
         {
+            "id": 4,
+            "description": "A powerful oven and grill cleaner that cuts through grease and grime, leaving your oven and grill sparkling clean.",
             "name": "Oven & Grill Cleaner",
             "category": "Specialized Cleaner",
             "brand": "ToughClean",
@@ -77,6 +85,8 @@
             "image_url": "https://picsum.photos/1000/500?random=4&grayscale=3"
         },
         {
+            "id": 5,
+            "description": "A powerful antibacterial kitchen wipes that cuts through grease and grime, leaving your kitchen sparkling clean.",
             "name": "Antibacterial Kitchen Wipes",
             "category": "Wipes",
             "brand": "CleanSwipe",
@@ -96,6 +106,8 @@
             "image_url": "https://picsum.photos/1000/500?random=5&grayscale=3"
         },
         {
+            "id": 6,
+            "description": "A powerful dishwasher cleaner that cuts through grease and grime, leaving your dishwasher sparkling clean.",
             "name": "Dishwasher Cleaner Tablets",
             "category": "Dishwasher Care",
             "brand": "DishGuard",
@@ -115,6 +127,8 @@
             "image_url": "https://picsum.photos/1000/500?random=6&grayscale=3"
         },
         {
+            "id": 7,
+            "description": "A powerful granite countertop cleaner that cuts through grease and grime, leaving your granite countertops sparkling clean.",
             "name": "Granite Countertop Cleaner",
             "category": "Surface Cleaner",
             "brand": "GraniteGleam",
@@ -134,6 +148,8 @@
             "image_url": "https://picsum.photos/1000/500.webp?random=7&grayscale=3"
         },
         {
+            "id": 8,
+            "description": "A powerful natural wood surface cleaner that cuts through grease and grime, leaving your wood surfaces sparkling clean.",
             "name": "Natural Wood Surface Cleaner",
             "category": "Surface Cleaner",
             "brand": "EcoShine",
@@ -153,6 +169,8 @@
             "image_url": "https://picsum.photos/1000/500.webp?random=8&grayscale=3"
         },
         {
+            "id": 9,
+            "description": "A powerful lime scale remover that cuts through lime scale and grime, leaving your surfaces sparkling clean.",
             "name": "Lime Scale Remover",
             "category": "Wipes",
             "brand": "LimeAway",
@@ -172,6 +190,8 @@
             "image_url": "https://picsum.photos/1000/500.webp?random=9&grayscale=3"
         },
         {
+            "id": 10,
+            "description": "A powerful kitchen drain cleaner that cuts through grease and grime, leaving your drains sparkling clean.",
             "name": "Kitchen Drain Cleaner",
             "category": "Specialized Cleaner",
             "brand": "DrainMagic",
@@ -191,6 +211,8 @@
             "image_url": "https://picsum.photos/1000/500.webp?random=10&grayscale=3"
         },
         {
+            "id": 11,
+            "description": "A powerful multi-surface antibacterial cleaner that cuts through grease and grime, leaving your surfaces sparkling clean.",
             "name": "Multi-Surface Antibacterial Cleaner",
             "category": "General Cleaner",
             "brand": "CleanShield",
@@ -210,6 +232,8 @@
             "image_url": "https://picsum.photos/1000/500.webp?random=11&grayscale=3"
         },
         {
+            "id": 12,
+            "description": "A powerful all-natural fruit and veggie wash that cuts through dirt and grime, leaving your fruits and veggies sparkling clean.",
             "name": "All-Natural Fruit and Veggie Wash",
             "category": "Specialized Cleaner",
             "brand": "NatureClean",
@@ -229,6 +253,8 @@
             "image_url": "https://picsum.photos/1000/500.webp?random=12&grayscale=3"
         },
         {
+            "id": 13,
+            "description": "A powerful foaming garbage disposal cleaner that cuts through grease and grime, leaving your garbage disposal sparkling clean.",
             "name": "Foaming Garbage Disposal Cleaner",
             "category": "Specialized Cleaner",
             "brand": "FreshDrain",
@@ -248,6 +274,8 @@
             "image_url": "https://picsum.photos/1000/500.webp?random=13&grayscale=3"
         },
         {
+            "id": 14,
+            "description": "A powerful citrus degreaser that cuts through grease and grime, leaving your surfaces sparkling clean.",
             "name": "Citrus Degreaser",
             "category": "Wipes",
             "brand": "CitruShine",
@@ -267,6 +295,8 @@
             "image_url": "https://picsum.photos/1000/500.webp?random=14&grayscale=3"
         },
         {
+            "id": 15,
+            "description": "A powerful antibacterial cleaner that cuts through grease and grime, leaving your surfaces sparkling clean.",
             "name": "All-Purpose Antibacterial Cleaner",
             "category": "General Cleaner",
             "brand": "GuardClean",
@@ -286,6 +316,8 @@
             "image_url": "https://picsum.photos/1000/500.webp?random=15&grayscale=3"
         },
         {
+            "id": 16,
+            "description": "A powerful natural citrus all-purpose cleaner that cuts through grease and grime, leaving your surfaces sparkling clean.",
             "name": "Natural Citrus All-Purpose Cleaner",
             "category": "Wipes",
             "brand": "EcoClean",
@@ -305,6 +337,8 @@
             "image_url": "https://picsum.photos/1000/500.webp?random=16&grayscale=3"
         },
         {
+            "id": 17,
+            "description": "A powerful foaming kitchen cleaner that cuts through grease and grime, leaving your kitchen sparkling clean.",
             "name": "Foaming Kitchen Cleaner",
             "category": "General Cleaner",
             "brand": "FoamFresh",
@@ -324,6 +358,8 @@
             "image_url": "https://picsum.photos/1000/500.webp?random=17&grayscale=3"
         },
         {
+            "id": 18,
+            "description": "A powerful multi-surface kitchen cleaner that cuts through grease and grime, leaving your kitchen sparkling clean.",
             "name": "Multi-Surface Kitchen Cleaner",
             "category": "General Cleaner",
             "brand": "MultiShine",
@@ -343,6 +379,8 @@
             "image_url": "https://picsum.photos/1000/500.webp?random=18&grayscale=3"
         },
         {
+            "id": 19,
+            "description": "A powerful heavy-duty oven cleaner that cuts through grease and grime, leaving your oven sparkling clean.",
             "name": "Heavy-Duty Oven Cleaner",
             "category": "Specialized Cleaner",
             "brand": "OvenMaster",
@@ -362,6 +400,8 @@
             "image_url": "https://picsum.photos/1000/500.webp?random=16&grayscale=3"
         },
         {
+            "id": 20,
+            "description": "A powerful glass stovetop cleaner that cuts through grease and grime, leaving your glass stovetop sparkling clean.",
             "name": "Glass Stovetop Cleaner",
             "category": "Surface Cleaner",
             "brand": "ShineGuard",
@@ -381,6 +421,7 @@
             "image_url": "https://picsum.photos/1000/500.webp?random=17&grayscale=3"
         },
         {
+            "id": 21,
             "name": "Organic Fruit and Vegetable Wash",
             "category": "Specialized Cleaner",
             "brand": "NatureWash",

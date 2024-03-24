@@ -15,7 +15,7 @@ const catgories = ['General Cleaner',
     'Specialized Cleaner',
     'Wipes'
 ];
-const images = [''];
+
 const Categories = () => {
     return (
         <div id='categories' className='mt-[170px]'>

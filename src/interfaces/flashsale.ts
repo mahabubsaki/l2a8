@@ -1,7 +1,9 @@
 export default interface IFlashSale {
     name: string;
     category: string;
+    id: number;
     brand: string;
+    description: string;
     price: number;
     discounted_price: number;
     size: string;
