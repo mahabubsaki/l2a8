@@ -3,6 +3,7 @@ import FlashCards from "@/custom/ui/FlashCards/FlashCards";
 import Footer from "@/custom/ui/Footer/Footer";
 import HeroBanner from "@/custom/ui/HeroBanner/HeroBanner";
 import TrendingProducts from "@/custom/ui/TrendingProducts/TrendingProducts";
+import Brands from "@/custom/ui/brands/Brands";
 
 
 export default function Home() {
@@ -13,8 +14,10 @@ export default function Home() {
         <FlashCards />
         <Categories />
         <TrendingProducts />
-        <Footer />
+
       </div>
+      <Brands />
+      <Footer />
     </section>
   );
 }

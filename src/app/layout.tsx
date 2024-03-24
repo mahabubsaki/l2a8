@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
 
-      <body className={classNames(inter.className, 'min-h-[10000px]')}>
+      <body className={classNames(inter.className)}>
         <main >
           {children}
         </main>

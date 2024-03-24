@@ -18,7 +18,7 @@ const catgories = ['General Cleaner',
 const images = [''];
 const Categories = () => {
     return (
-        <div className='mt-[170px]'>
+        <div id='categories' className='mt-[170px]'>
             <div className='max-w-[600px] mx-auto text-center mb-[70px] px-5 sm:px-0'>
                 <h2 className='mb-3 text-3xl font-semibold'>Top Categories</h2>
                 <p className='text-[#666666]'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.</p>

@@ -14,7 +14,7 @@ const TrendingProducts = async () => {
     });
     const products: IFlashSale[] = await data.json();
     return (
-        <div className='mt-[170px]'>
+        <div id='top-products' className='mt-[170px]'>
             <div className='flex justify-between items-center mb-9'>
                 <div>
                     <p className='text-2xl'>Most Popular Products</p>
