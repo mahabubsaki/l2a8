@@ -3,7 +3,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@
 import { useRouter } from 'next/navigation';
 import React from 'react';
 
-const FilterProduct = ({ searchParams }) => {
+const FilterProduct = ({ searchParams }: { searchParams: Record<any, any>; }) => {
     const navigation = useRouter();
     return (
         <div className='grid grid-cols-1 md:grid-cols-2 gap-5 lg:grid-cols-3 my-10'>

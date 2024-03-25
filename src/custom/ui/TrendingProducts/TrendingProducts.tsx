@@ -5,10 +5,10 @@ import Link from 'next/link';
 import React from 'react';
 
 const TrendingProducts = async () => {
-    const data = await fetch('http://localhost:3000/api/top-products', {
+    if (!process.env.BASE_API_URL) return null;
+    const data = await fetch(`${process.env.BASE_API_URL}/api/top-products`, {
         next: {
             revalidate: 30,
-            tags: ['top-products', 'recent']
         },
 
     });

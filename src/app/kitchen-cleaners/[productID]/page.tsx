@@ -1,18 +1,33 @@
+import Footer from '@/custom/ui/Footer/Footer';
 import Navbar from '@/custom/ui/Navbar/Navbar';
+import Brands from '@/custom/ui/brands/Brands';
 import IFlashSale from '@/interfaces/flashsale';
 import Image from 'next/image';
 import React from 'react';
 
 export const generateStaticParams = async () => {
-    const res = await fetch('http://localhost:3000/api/all-products');
-    const data = await res.json();
-    return data.slice(0, 10).map((product: IFlashSale) => ({
-        productID: product.id.toString()
-    }));
+
+    return [
+        { productID: "1" },
+        { productID: "2" },
+        { productID: "3" },
+        { productID: "4" },
+        { productID: "5" },
+        { productID: "6" },
+        { productID: "7" },
+        { productID: "8" },
+        { productID: "9" },
+        { productID: "10" }
+    ];
 };
 
-const SingleProduct = async ({ params }: { params: { productID: string; }; }) => {
-    const res = await fetch(`http://localhost:3000/api/single-product/${params.productID}`);
+const SingleProduct = async ({ params = { productID: '1' } }: { params: { productID: string; }; }) => {
+    if (!process.env.BASE_API_URL) {
+        return null;
+    }
+    const res = await fetch(`${process.env.BASE_API_URL}/api/single-product/${params.productID}`, {
+        cache: 'no-cache',
+    });
     const data: IFlashSale = await res.json();
     const { brand, category, description, discounted_price, id, image_url, ingredients, name, price, rating, reviews, scent, size } = data;
     return (
@@ -71,6 +86,8 @@ const SingleProduct = async ({ params }: { params: { productID: string; }; }) =>
 
 
             </div>
+            <Brands />
+            <Footer />
         </>
     );
 };

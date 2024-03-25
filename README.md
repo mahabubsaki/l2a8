@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Shinemart - Shinemart a Kitchen Cleaning items Project
+
+Welcome to Shinemart! This is a Next.js-based project for kitchen cleaning utensils It allows users to explore various kithcen cleaning products, view flash sale items, filter products by category, rating and price and more.
 
 ## Getting Started
 
-First, run the development server:
+These instructions will guide you through setting up the project on your local machine for development and testing purposes.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+### Prerequisites
+
+Make sure you have the following installed on your machine:
+
+- Node.js and npm/yarn
+- Git (optional)
+
+### Installation
+
+1. Clone this repository to your local machine:
+
+```
+git clone https://github.com/mahabubsaki/l2a8
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Navigate to the project directory:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+cd l2a8
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. Install project dependencies:
 
-## Learn More
+```
+npm install
+```
 
-To learn more about Next.js, take a look at the following resources:
+### Running the Development Server
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+To run the development server, execute the following command:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```
+npm run dev
+```
 
-## Deploy on Vercel
+This will start the server, and you can access the project at http://localhost:3000 in your browser.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Features
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- View all flash sale products (ISR).
+- Find popular product categories.
+- Show trending products based on product rating (ISR).
+- Browse all products on the product page (SSR) and filter them by category.
+- Filter products by rating and price.
+- View product details (SSG + SSR).
+- See all products on the dashboard page in tabular form (SSR).
+
+## Technology Used
+
+- Next.js
+- TypeScript
+- Tailwind CSS
+- ShadcnUI
+- Framer Motion
+
+## Live Link
+
+You can access the live version of this project [here](https://shinemart.vercel.app/).

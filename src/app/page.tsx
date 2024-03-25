@@ -7,6 +7,9 @@ import Brands from "@/custom/ui/brands/Brands";
 
 
 export default function Home() {
+  if (!process.env.BASE_API_URL) {
+    return null;
+  }
   return (
     <section>
       <HeroBanner />

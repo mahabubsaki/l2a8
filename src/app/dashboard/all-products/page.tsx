@@ -5,7 +5,10 @@ import Link from 'next/link';
 import React from 'react';
 
 const AllProducts = async () => {
-    const res = await fetch(`http://localhost:3000/api/all-products`, {
+    if (!process.env.BASE_API_URL) {
+        return null;
+    }
+    const res = await fetch(`${process.env.BASE_API_URL}/api/all-products`, {
         cache: 'no-store'
     });
     const data: IFlashSale[] = await res.json();

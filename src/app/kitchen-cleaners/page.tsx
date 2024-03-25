@@ -1,17 +1,23 @@
 import FilterProduct from '@/custom/ui/FilterProduct/FilterProduct';
+import Footer from '@/custom/ui/Footer/Footer';
 import Navbar from '@/custom/ui/Navbar/Navbar';
+import Brands from '@/custom/ui/brands/Brands';
 import IFlashSale from '@/interfaces/flashsale';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
-const Prodcuts = async ({ searchParams }) => {
-    const { rating, price, category } = searchParams;
-    const res = await fetch(`http://localhost:3000/api/all-products?rating=${rating || ''}&price=${price || ''}&category=${category || ''}`, {
+const Prodcuts = async ({ searchParams }: { searchParams: Record<any, any>; }) => {
+    if (!process.env.BASE_API_URL) {
+        return null;
+    }
+    const { rating, price, category } = searchParams || {};
+    const res = await fetch(`${process.env.BASE_API_URL}/api/all-products?rating=${rating || ''}&price=${price || ''}&category=${category || ''}`, {
         cache: 'no-store'
-
     });
+
     const data: IFlashSale[] = await res.json();
+
 
     return (
         <>
@@ -56,6 +62,8 @@ const Prodcuts = async ({ searchParams }) => {
                     </div>
                 </div>
             </div>
+            <Brands />
+            <Footer />
         </>
     );
 };

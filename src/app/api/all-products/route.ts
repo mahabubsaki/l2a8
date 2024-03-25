@@ -18,7 +18,7 @@ export async function GET(request: NextRequest) {
         const [min, max] = price.split('-');
         datas = datas.filter(i => i.price >= +min && i.price <= +max);
     }
-    console.log(datas.length);
+
 
     return NextResponse.json(datas);
 }

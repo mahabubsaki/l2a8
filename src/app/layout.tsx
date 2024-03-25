@@ -17,6 +17,9 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  if (!process.env.BASE_API_URL) {
+    return null;
+  }
   return (
     <html lang="en" suppressHydrationWarning>
 

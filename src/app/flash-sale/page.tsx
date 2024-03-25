@@ -1,4 +1,6 @@
+import Footer from '@/custom/ui/Footer/Footer';
 import Navbar from '@/custom/ui/Navbar/Navbar';
+import Brands from '@/custom/ui/brands/Brands';
 import CountDown from '@/custom/ui/countdown/CountDown';
 import IFlashSale from '@/interfaces/flashsale';
 import Image from 'next/image';
@@ -6,7 +8,10 @@ import Link from 'next/link';
 import React from 'react';
 
 const FlashSale = async () => {
-    const data = await fetch('http://localhost:3000/api/all-flashsale', {
+    if (!process.env.BASE_API_URL) {
+        return null;
+    }
+    const data = await fetch(`${process.env.BASE_API_URL}/api/all-flashsale`, {
         cache: 'no-store'
     });
     const products: IFlashSale[] = await data.json();
@@ -50,6 +55,8 @@ const FlashSale = async () => {
 
                 </div>
             </div>
+            <Brands />
+            <Footer />
         </>
     );
 };

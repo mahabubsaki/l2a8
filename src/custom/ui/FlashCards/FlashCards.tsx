@@ -1,3 +1,4 @@
+
 import { Button } from '@/components/ui/button';
 import IFlashSale from '@/interfaces/flashsale';
 import Image from 'next/image';
@@ -5,11 +6,13 @@ import Link from 'next/link';
 import React from 'react';
 
 const FlashCards = async () => {
-    const data = await fetch('http://localhost:3000/api/flashsale', {
+    if (!process.env.BASE_API_URL) return null;
+    const data = await fetch(`${process.env.BASE_API_URL}/api/flashsale`, {
         next: {
             revalidate: 30,
-            tags: ['flashsale', 'recent']
         },
+
+
 
     });
     const products: IFlashSale[] = await data.json();
