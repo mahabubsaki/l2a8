@@ -35,6 +35,7 @@ const TrendingProducts = async () => {
                             </div>
                             <div className='mt-3 px-4 text-black opacity-85 mb-2'>
                                 <p className='text-xl text-center'>{item.name}</p>
+                                <p className='uppercase text-gray-500 my-2'>Category : {item.category.split('-').join(' ')}</p>
                                 <div className='flex justify-between'>
                                     <div className='flex gap-1 items-center'>
                                         <span className='  line-through opacity-50'>${item.price}</span>
