@@ -7,7 +7,10 @@ import React from 'react';
 
 const Prodcuts = async ({ searchParams }) => {
     const { rating, price, category } = searchParams;
-    const res = await fetch(`http://localhost:3000/api/all-products?rating=${rating || ''}&price=${price || ''}&category=${category || ''}`);
+    const res = await fetch(`http://localhost:3000/api/all-products?rating=${rating || ''}&price=${price || ''}&category=${category || ''}`, {
+        cache: 'no-store'
+
+    });
     const data: IFlashSale[] = await res.json();
 
     return (

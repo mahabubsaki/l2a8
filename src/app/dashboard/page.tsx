@@ -1,9 +1,9 @@
+import { redirect } from 'next/navigation';
 import React from 'react';
 
 const Dashboard = () => {
-    return (
-        <div>Dashboard</div>
-    );
+    redirect('/dashboard/all-products');
+    return <></>;
 };
 
 export default Dashboard;

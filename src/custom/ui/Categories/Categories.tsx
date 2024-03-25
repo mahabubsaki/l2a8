@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 
@@ -25,12 +26,13 @@ const Categories = () => {
             </div>
             <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4'>
                 {catgories.map((item, index) => (
-                    <div key={index} className='p-1'>
-                        <div className={`aspect-video bg-gradient-to-tl from-slate-400 via-blue-300 to-green-200  rounded-2xl relative overflow-hidden flex justify-center items-center`}>
-                            <p className='text-2xl text-center text-black'>{item}</p>
-                        </div>
+                    <Link key={index} href={`/kitchen-cleaners?category=${item.split(' ').map(i => i.toLowerCase()).join('-')}`}>
+                        <div className='p-1'>
+                            <div className={`aspect-video bg-gradient-to-tl from-slate-400 via-blue-300 to-green-200  rounded-2xl relative overflow-hidden flex justify-center items-center`}>
+                                <p className='text-2xl text-center text-black'>{item}</p>
+                            </div>
 
-                    </div>
+                        </div></Link>
                 ))}
             </div>
         </div>

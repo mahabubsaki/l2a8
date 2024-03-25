@@ -60,6 +60,7 @@ const Navbar = () => {
                             <Link href="/about-us" className="px-3 py-2 mx-2 mt-2 text-gray-700 transition-colors duration-300 transform rounded-md lg:mt-0  hover:bg-gray-100 lg:text-white lg:hover:bg-black">About Us</Link>
                             <Link href="/contact-us" className="px-3 py-2 mx-2 mt-2 text-gray-700 transition-colors duration-300 transform rounded-md lg:mt-0  hover:bg-gray-100 lg:text-white lg:hover:bg-black">Contact Us</Link>
                             <Link href="/helpline" className="px-3 py-2 mx-2 mt-2 text-gray-700 transition-colors duration-300 transform rounded-md lg:mt-0  hover:bg-gray-100 lg:text-white lg:hover:bg-black">Helpline</Link>
+                            <Link href="/dashboard" className="px-3 py-2 mx-2 mt-2 text-gray-700 transition-colors duration-300 transform rounded-md lg:mt-0  hover:bg-gray-100 lg:text-white lg:hover:bg-black">Dashboard</Link>
                         </div>
 
                         <div className="flex items-center mt-4 lg:mt-0">
